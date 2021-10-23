@@ -1,6 +1,6 @@
-<h2>Buch DetailSeite</h2>
-<p>Hier stehen nachher die Details :D </p>
-<p> exklusive Änderungen auf der TimDev Branch </p>
+
+<h3>Buch Detail Seite</h3>
+<p>Hier stehen nachher die Details</p>
 <!--
     TODO: render book details
 -->
