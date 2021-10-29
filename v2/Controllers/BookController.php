@@ -30,11 +30,20 @@ class BookController extends AbstractController
 
     public function defaultAction()
     {
+
+
         $this->setData('bookList', $this->books);
+
+
+
     }
 
     public function detailAction()
     {
+        if(isset($_GET['search'])) {
+            $search = $_GET['search'];
+        }
+        $this->setData('search', $search);
         // TODO: read book from GET params
         // set book details in view
     }

@@ -33,18 +33,34 @@
 
                 <div class="column">
                     <div class="box">
-                        <div class="field has-addons">
-                            <p class="control is-expanded">
-                                <input class="input" type="text" placeholder="Find a post">
-                            </p>
-                            <p class="control">
-                                <button class="button">
-                                    Search
-                                </button>
-                            </p>
-                        </div>
+                        <form action="index.php?c=book" method="get">
 
-                        
+
+                            <div class="field has-addons">
+                                <p class="control">
+                                    <span class="select">
+                                        <select name="c">
+                                            <option>book</option>
+                                            <option>car</option>
+                                        </select>
+                                    </span>
+                                </p>
+
+                                <p class="control is-expanded">
+                                    <input class="input" name="search" type="text" placeholder="Find a post"></input>
+                                </p>
+
+                                <p class="control">
+                                    <input class="button is-info" type="submit" value="suchen">
+                                    </input>
+                                </p>
+                                <input type="hidden" name="a" value="detail"> 
+                            </div>
+
+
+                        </form>
+
+
                         <?php echo $this->renderView(); ?>
                     </div>
                 </div>
