@@ -1,0 +1,27 @@
+{
+   "1":{
+      "Title": "Titel 1",
+      "Author":"Niels",
+      "Jahr":2021
+   },
+   "2":{
+      "Title": "Titel 2",
+      "Author":"Max",
+      "Jahr":2020
+   },
+   "3":{
+      "Title": "Titel 3",
+      "Author":"Mr. X",
+      "Jahr":2019
+   },
+   "4":{
+      "Title": "Titel 4",
+      "Author":"Santa Claus",
+      "Jahr":1000
+   },
+   "5":{
+      "Title": "Titel 5",
+      "Author":"Mr. x",
+      "Jahr":1200
+   }
+}

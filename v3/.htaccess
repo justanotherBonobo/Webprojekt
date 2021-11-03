@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([a-z]*)?/?([a-z]*)$ index.php?c=$1&a=$2 [QSA]

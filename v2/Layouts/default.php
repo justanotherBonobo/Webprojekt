@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Car Search</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 
@@ -16,10 +16,10 @@
 
                 <div class="column is-one-quarter">
                     <h1 class="title">
-                        Hello World
+                        Carsearch
                     </h1>
                     <p class="subtitle">
-                        My first website with <strong>Bulma</strong>!
+                        Find your <strong>dreamcar</strong>!
                     </p>
                     <nav>
                         <ul>
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="column">
-                    <div class="box">
+                    <div class="">
                         <form action="index.php?c=book" method="get">
 
 
@@ -45,7 +45,7 @@
                                         </select>
                                     </span>
                                 </p>
-
+                                
                                 <p class="control is-expanded">
                                     <input class="input" name="search" type="text" placeholder="Find a post"></input>
                                 </p>
@@ -68,6 +68,19 @@
             </div>
         </div>
     </section>
+<br>
+<br>
+<br>
+    <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+
 </body>
 
 </html>
