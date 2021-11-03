@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link active" href="/DiesUndDas/v3">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./book">Bücher</a>
+          <a class="nav-link" href="/DiesUndDas/v3/book">Bücher</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./demo">Demo</a>
+          <a class="nav-link" href="/DiesUndDas/v3/demo">Demo</a>
         </li>        
       </ul>
-      <form class="d-flex" action="./search" method="POST">
+      <form class="d-flex" action="/DiesUndDas/v3/search" method="POST">
         <input class="form-control me-2" type="search" name="query" placeholder="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
