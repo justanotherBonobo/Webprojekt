@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Auto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Marke"/>
+        <xs:element type="xs:string" name="Modell"/>
+        <xs:element type="xs:string" name="Preis"/>
+        <xs:element type="xs:string" name="Zustand"/>
+        <xs:element type="xs:string" name="Kilometerstand"/>
+        <xs:element type="xs:string" name="Farbe"/>
+        <xs:element type="xs:string" name="Leistung"/>
+        <xs:element type="xs:string" name="Getriebe"/>
+        <xs:element type="xs:string" name="BeschleunigungAufHundert"/>
+        <xs:element type="xs:string" name="Emissionsklasse"/>
+        <xs:element type="xs:string" name="Kraftstoffart"/>
+        <xs:element name="KraftstoffverbrauchNEFZ">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Innerorts"/>
+              <xs:element type="xs:string" name="Außerorts"/>
+              <xs:element type="xs:string" name="Kombiniert"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="ID"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
