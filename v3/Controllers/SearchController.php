@@ -28,21 +28,22 @@ class SearchController extends AbstractController
     {
         $searchQuery = $_POST['query'];
         
-
         // do the search here ...
         $result = [];
     
         foreach($this->list as $book) {
-            if (!strcasecmp($book->getID(), $searchQuery)) 
+            
+            
+            if (stripos($book->getName(), $searchQuery) !== false) 
             {
                 $result[] = $book;
             }
 
         }
 
-
-
-        $this->setData('query', $searchQuery);
         $this->setData('result', $result);
+        $this->setData('query', $searchQuery);
+
+
     }
 }
