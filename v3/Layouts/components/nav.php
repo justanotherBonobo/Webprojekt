@@ -14,11 +14,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/DiesUndDas/v3/demo">Demo</a>
-        </li>        
+        </li>
       </ul>
       <form class="d-flex" action="/DiesUndDas/v3/search" method="POST">
         <input class="form-control me-2" type="search" name="query" placeholder="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+
       </form>
     </div>
   </div>

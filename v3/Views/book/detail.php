@@ -10,4 +10,4 @@
 
 <hr />
 
-<a class="btn btn-secondary" href="/DiesUndDas/v3/book">Zurück zur Liste</a>    
+<a class="btn btn-secondary" href="/DiesUndDas/v3/book">Zur Übersicht</a>    
