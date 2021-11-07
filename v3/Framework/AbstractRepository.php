@@ -21,6 +21,17 @@ abstract class AbstractRepository
         }
     }
 
+    public function loadXML($filename)
+    {
+        if (file_exists($filename)) {
+            $xml = simplexml_load_file($filename);
+
+            $this->createObjects($xml);
+        } else {
+            die('file not found');
+        }
+    }
+
     /**
      * find an item in the list by its id
      */

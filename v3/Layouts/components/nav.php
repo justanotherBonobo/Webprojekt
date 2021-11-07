@@ -13,6 +13,9 @@
           <a class="nav-link" href="/DiesUndDas/v3/book">Bücher</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/DiesUndDas/v3/car">Autos</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/DiesUndDas/v3/demo">Demo</a>
         </li>
       </ul>

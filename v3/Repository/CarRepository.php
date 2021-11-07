@@ -4,9 +4,9 @@ namespace Repository;
 
 use Framework\RepositoryInterface;
 use Framework\AbstractRepository;
-use Models\Book;
+use Models\Car;
 
-class BookRepository
+class CarRepository
     extends AbstractRepository
     implements RepositoryInterface
 {
@@ -16,17 +16,16 @@ class BookRepository
      * 
      * @param array $list
      */
-    public function createObjects($list)
+    public function createObjects($xml)
     {
-        foreach($list as $id => $data) {
-            $book = new Book();
+        foreach($xml->Auto as $data) {
+            $car = new Car();
 
-            $book->setId($id);
-            $book->setName($data['Title']);
-            $book->setAuthor($data['Author']);
-            $book->setYear($data['Jahr']);
+            $car->setId($data['ID']);
+            $car->setModell($data->Modell);
+            /**..... */
 
-            $this->_list[] = $book;
+            $this->_list[] = $car;
         }
     }
 }
