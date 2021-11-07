@@ -23,6 +23,7 @@ class CarRepository
 
             $car->setId($data['ID']);
             $car->setModell($data->Modell);
+            $car->setFarbe($data->Farbe);
             /**..... */
 
             $this->_list[] = $car;
