@@ -8,11 +8,13 @@ use Framework\ModelInterface;
 
 
 class Car implements ModelInterface {
+private $_img;
 private $_id;
 private $_marke;
 private $_modell;
 private $_preis;
 private $_zustand;
+private $_erstzulassung;
 private $_kilometerstand;
 private $_farbe;
 private $_leistung;
@@ -23,6 +25,16 @@ private $_kraftstoffart;
 private $_innerorts;
 private $_außerorts;
 private $_kombiniert;
+
+
+public function getImg()
+{
+return $this->_img;
+}
+public function setImg($img)
+{
+$this->_img = $img;
+}
 
 public function getId()
 {
@@ -77,6 +89,17 @@ return $this->_zustand;
 public function setZustand($zustand)
 {
 $this->_zustand = $zustand;
+}
+
+public function getErstzulassung()
+{
+return $this->_erstzulassung;
+}
+
+
+public function setErstzulassung($erstzulassung)
+{
+$this->_erstzulassung = $erstzulassung;
 }
 
 

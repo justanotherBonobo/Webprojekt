@@ -8,6 +8,7 @@
         <xs:element type="xs:string" name="Modell"/>
         <xs:element type="xs:string" name="Preis"/>
         <xs:element type="xs:string" name="Zustand"/>
+        <xs:element type="xs:string" name="Erstzulassung"/>
         <xs:element type="xs:string" name="Kilometerstand"/>
         <xs:element type="xs:string" name="Farbe"/>
         <xs:element type="xs:string" name="Leistung"/>

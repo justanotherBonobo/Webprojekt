@@ -8,7 +8,7 @@
         <?php echo $car->getMarke(). ' '.$car->getModell(); 
         ?>
         </a>
-        <small><?php echo $car->getPreis(); ?></small>
+        <small><?php echo $car->getErstzulassung(); ?></small>
     </li>
     <?php endforeach; ?>
 

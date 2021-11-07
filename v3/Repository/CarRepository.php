@@ -21,11 +21,13 @@ class CarRepository
         foreach($xml->Auto as $data) {
             $car = new Car();
 
+            $car->setImg($data->img);
             $car->setId($data['ID']);
             $car->setMarke($data->Marke);
             $car->setModell($data->Modell);
             $car->setPreis($data->Preis);
             $car->setZustand($data->Zustand);
+            $car->setErstzulassung($data->Erstzulassung);
             $car->setKilometerstand($data->Kilometerstand);
             $car->setFarbe($data->Farbe);
             $car->setLeistung($data->Leistung);
