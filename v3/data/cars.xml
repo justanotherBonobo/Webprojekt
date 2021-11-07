@@ -4,6 +4,7 @@
 <Autos>
 <!-- erstes Auto Element Porsche 718 Cayman -->
 <Auto ID= "100">
+    <img>718_schwarz.jpg</img>
     <Marke>Porsche</Marke>
     <Modell>718 Cayman</Modell>
     <Preis>89000 Euro</Preis>
@@ -24,6 +25,7 @@
 
 <!-- zweites Auto Element Porsche 911 Carrera -->
 <Auto ID= "101">
+  <img>911_rot.jpg</img>
   <Marke>Porsche</Marke>
   <Modell>911 Carrera</Modell>
   <Preis>137000 Euro</Preis>

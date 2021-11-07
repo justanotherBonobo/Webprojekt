@@ -3,6 +3,7 @@
   <xs:element name="Auto">
     <xs:complexType>
       <xs:sequence>
+        <xs:element type="xs:string" name="img"/>
         <xs:element type="xs:string" name="Marke"/>
         <xs:element type="xs:string" name="Modell"/>
         <xs:element type="xs:string" name="Preis"/>
