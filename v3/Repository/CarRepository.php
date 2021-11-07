@@ -31,7 +31,7 @@ class CarRepository
             $car->setFarbe($data->Farbe);
             $car->setLeistung($data->Leistung);
             $car->setGetriebe($data->Getriebe);
-            $car->setBeschleuigungAufHundert($data->Beschleunigung);
+            $car->setBeschleuigungAufHundert($data->beschleunigungAufHundert);
             $car->setEmissionsklasse($data->Emissionsklasse);
             $car->setKraftstoffart($data->Kraftstoffart);
             $car->setInnerorts($data->KraftstoffverbrauchNEFZ->Innerorts);

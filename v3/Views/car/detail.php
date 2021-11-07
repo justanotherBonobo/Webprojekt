@@ -3,10 +3,10 @@
   <div class="card-body">
 
 
-    <h5 class="card-title title"><?php echo $this->getData('car')->getModell(); ?></h5>
+    <h5 class="card-title title"><?php echo $this->getData('car')->getMarke().' '. $this->getData('car')->getModell(); ?></h5>
     <p class="card-text">
         Marke: <?php echo $this->getData('car')->getMarke(); ?><br />
-        Modell: <?php echo $this->getData('car')->getModell(); ?>
+        Modell: <?php echo $this->getData('car')->getModell(); ?><br />
         Preis: <?php echo $this->getData('car')->getPreis(); ?><br />
         Zustand: <?php echo $this->getData('car')->getZustand(); ?><br />
         Kilometerstand: <?php echo $this->getData('car')->getKilometerstand(); ?><br />

@@ -12,7 +12,7 @@
     <Kilometerstand>599 km</Kilometerstand>
     <Farbe>schwarz</Farbe>
     <Leistung>400 PS</Leistung>
-    <Getriebe>automatik</Getriebe>
+    <Getriebe>Automatik</Getriebe>
     <BeschleunigungAufHundert>5,1 s</BeschleunigungAufHundert>
     <Emissionsklasse>Euro 6</Emissionsklasse>
     <Kraftstoffart>Benzin</Kraftstoffart>
@@ -33,7 +33,7 @@
   <Kilometerstand>400 km</Kilometerstand>
   <Farbe>rot</Farbe>
   <Leistung>385 PS</Leistung>
-  <Getriebe>automatik</Getriebe>
+  <Getriebe>Automatik</Getriebe>
   <BeschleunigungAufHundert>4,2 s</BeschleunigungAufHundert>
   <Emissionsklasse>Euro 6</Emissionsklasse>
   <Kraftstoffart>Benzin</Kraftstoffart>

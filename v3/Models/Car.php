@@ -24,7 +24,6 @@ private $_innerorts;
 private $_außerorts;
 private $_kombiniert;
 
-
 public function getId()
 {
 return $this->_id;
@@ -53,7 +52,7 @@ return $this->_modell;
 
 public function setModell($modell)
 {
-$this->_author = $modell;
+$this->_modell = $modell;
 }
 
 
