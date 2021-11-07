@@ -34,7 +34,7 @@ class SearchController extends AbstractController
         foreach($this->list as $car) {
             
             
-            if (stripos($car->getModell(), $searchQuery) !== false) 
+            if ($this->searchCheck($car, $searchQuery)) 
             {
                 $result[] = $car;
             }
@@ -44,6 +44,22 @@ class SearchController extends AbstractController
         $this->setData('result', $result);
         $this->setData('query', $searchQuery);
 
+
+    }
+
+    public function searchCheck($car, $query){
+        if (
+            (stripos($car->getModell(), $query) !== false)||
+            (stripos($car->getMarke(), $query) !== false)||
+            (stripos($car->getFarbe(), $query) !== false)||
+            (stripos($car->getZustand(), $query) !== false)||
+            (stripos($car->getKraftstoffart(), $query) !== false)||
+            (stripos($car->getErstzulassung(), $query) !== false)
+        )
+        {
+            return true;
+        } 
+        return false;
 
     }
 }
