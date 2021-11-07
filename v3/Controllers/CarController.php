@@ -9,13 +9,13 @@ use Models\Car;
 class CarController extends AbstractController
 {  
     /**
-     * book repository holds all the books
+     * car repository holds all the cars
      */
     protected $carRepository;
 
     public function _init()
     {
-        // load book list from json file
+        // load car list from json file
         // into our repository        
         $this->carRepository = new CarRepository();
         $this->carRepository->loadXML('data/cars.xml');

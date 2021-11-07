@@ -34,7 +34,7 @@ class SearchController extends AbstractController
         foreach($this->list as $car) {
             
             
-            if (stripos($car->getName(), $searchQuery) !== false) 
+            if (stripos($car->getModell(), $searchQuery) !== false) 
             {
                 $result[] = $car;
             }

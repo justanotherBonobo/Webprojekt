@@ -13,7 +13,7 @@
         Farbe: <?php echo $this->getData('car')->getFarbe(); ?><br />
         Leistung: <?php echo $this->getData('car')->getLeistung(); ?><br />
         Getriebe: <?php echo $this->getData('car')->getGetriebe(); ?><br />
-        Von 0 auf 100: <?php echo $this->getData('car')->getBeschleunigungAufHundert(); ?><br />
+        Von 0 auf 100: <?php echo $this->getData('car')->getBeschleuigungAufHundert(); ?><br />
         Emissionsklasse: <?php echo $this->getData('car')->getEmissionsklasse(); ?><br />
         Kraftstoffart: <?php echo $this->getData('car')->getKraftstoffart(); ?><br />
         Verbrauch Innerorts: <?php echo $this->getData('car')->getInnerorts(); ?><br />

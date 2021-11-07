@@ -11,10 +11,10 @@
     
     
 
-    foreach($this->getData('result') as $book): ?>
+    foreach($this->getData('result') as $car): ?>
     <li class="list-group-item">
-        <a href="/DiesUndDas/v3/book/detail?id=<?php echo $book->getId(); ?>">
-        <?php echo $book->getName(); ?>
+        <a href="/DiesUndDas/v3/car/detail?id=<?php echo $car->getId(); ?>">
+        <?php echo $car->getModell(); ?>
         </a>
     </li>
     <?php endforeach; 
