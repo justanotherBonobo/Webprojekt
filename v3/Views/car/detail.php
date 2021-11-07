@@ -3,7 +3,7 @@
   <div class="card-body">
 
 
-    <h5 class="card-title title"><?php echo $this->getData('book')->getName(); ?></h5>
+    <h5 class="card-title title"><?php echo $this->getData('car')->getModell(); ?></h5>
     <p class="card-text">
         Marke: <?php echo $this->getData('car')->getMarke(); ?><br />
         Modell: <?php echo $this->getData('car')->getModell(); ?>
