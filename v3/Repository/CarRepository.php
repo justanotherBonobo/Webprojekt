@@ -24,14 +24,13 @@ class CarRepository
             $car->setId($data['ID']);
             $car->setMarke($data->Marke);
             $car->setModell($data->Modell);
-            $car->setFarbe($data->Farbe);
             $car->setPreis($data->Preis);
             $car->setZustand($data->Zustand);
             $car->setKilometerstand($data->Kilometerstand);
             $car->setFarbe($data->Farbe);
             $car->setLeistung($data->Leistung);
             $car->setGetriebe($data->Getriebe);
-            $car->setBeschleuigungAufHundert($data->beschleunigungAufHundert);
+            $car->setBeschleuigungAufHundert($data->BeschleunigungAufHundert);
             $car->setEmissionsklasse($data->Emissionsklasse);
             $car->setKraftstoffart($data->Kraftstoffart);
             $car->setInnerorts($data->KraftstoffverbrauchNEFZ->Innerorts);

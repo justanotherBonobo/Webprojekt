@@ -156,7 +156,7 @@ return $this->_innerorts;
 
 public function setInnerorts($innerorts)
 {
-$this->_year = $innerorts;
+$this->_innerorts = $innerorts;
 }
 
 public function getAußerorts()
