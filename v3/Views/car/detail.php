@@ -5,9 +5,21 @@
 
     <h5 class="card-title title"><?php echo $this->getData('book')->getName(); ?></h5>
     <p class="card-text">
-        Author: <?php echo $this->getData('book')->getAuthor(); ?><br />
-        Jahr: <?php echo $this->getData('book')->getYear(); ?>
-    </p>
+        Marke: <?php echo $this->getData('car')->getMarke(); ?><br />
+        Modell: <?php echo $this->getData('car')->getModell(); ?>
+        Preis: <?php echo $this->getData('car')->getPreis(); ?><br />
+        Zustand: <?php echo $this->getData('car')->getZustand(); ?><br />
+        Kilometerstand: <?php echo $this->getData('car')->getKilometerstand(); ?><br />
+        Farbe: <?php echo $this->getData('car')->getFarbe(); ?><br />
+        Leistung: <?php echo $this->getData('car')->getLeistung(); ?><br />
+        Getriebe: <?php echo $this->getData('car')->getGetriebe(); ?><br />
+        Von 0 auf 100: <?php echo $this->getData('car')->getBeschleunigungAufHundert(); ?><br />
+        Emissionsklasse: <?php echo $this->getData('car')->getEmissionsklasse(); ?><br />
+        Kraftstoffart: <?php echo $this->getData('car')->getKraftstoffart(); ?><br />
+        Verbrauch Innerorts: <?php echo $this->getData('car')->getInnerorts(); ?><br />
+        Verbrauch Außerorts: <?php echo $this->getData('car')->getAußerorts(); ?><br />
+        Verbrauch Kombiniert: <?php echo $this->getData('car')->getKombiniert(); ?><br />
+        </p>
 
   </div>
 
@@ -15,4 +27,4 @@
 
 <hr />
 
-<a class="btn btn-secondary" href="/DiesUndDas/v3/book">Zur Übersicht</a>    
+<a class="btn btn-secondary" href="/DiesUndDas/v3/car">Zur Übersicht</a>    

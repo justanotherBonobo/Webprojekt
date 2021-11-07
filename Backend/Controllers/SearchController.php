@@ -3,8 +3,8 @@
 namespace Controllers;
 
 use Framework\AbstractController;
-use Repository\CarRepository;
-use Models\Car;
+use Repository\BookRepository;
+use Models\Book;
 
 
 
@@ -14,11 +14,11 @@ class SearchController extends AbstractController
 
     public function _init()
     {
-        // load car list from json file
+        // load book list from json file
         // into our repository        
-        $this->carRepository = new CarRepository();
-        $this->carRepository->loadXML('data/cars.xml');
-        $this->list = $this->carRepository->getElements();
+        $this->bookRepository = new BookRepository();
+        $this->bookRepository->loadJson('data/books.json');
+        $this->list = $this->bookRepository->getElements();
     }
 
     /**
@@ -31,12 +31,12 @@ class SearchController extends AbstractController
         // do the search here ...
         $result = [];
     
-        foreach($this->list as $car) {
+        foreach($this->list as $book) {
             
             
-            if (stripos($car->getName(), $searchQuery) !== false) 
+            if (stripos($book->getName(), $searchQuery) !== false) 
             {
-                $result[] = $car;
+                $result[] = $book;
             }
 
         }

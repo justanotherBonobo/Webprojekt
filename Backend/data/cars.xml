@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- erstes Auto Element Porsche 718 Cayman -->
+<Auto ID= "100">
+    <Marke>Porsche</Marke>
+    <Modell>718 Cayman</Modell>
+    <Preis>89000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Kilometerstand>599 km</Kilometerstand>
+    <Farbe>schwarz</Farbe>
+    <Leistung>400 PS</Leistung>
+    <Getriebe>automatik</Getriebe>
+    <BeschleunigungAufHundert>5,1 s</BeschleunigungAufHundert>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>14,7 l/100km</Innerorts>
+        <Außerorts>8,5 l/100km</Außerorts>
+        <Kombiniert>10,8 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+</Auto>
+
+<!-- zweites Auto Element Porsche 911 Carrera -->
+<Auto ID= "101">
+  <Marke>Porsche</Marke>
+  <Modell>911 Carrera</Modell>
+  <Preis>137000 Euro</Preis>
+  <Zustand>neu</Zustand>
+  <Kilometerstand>400 km</Kilometerstand>
+  <Farbe>rot</Farbe>
+  <Leistung>385 PS</Leistung>
+  <Getriebe>automatik</Getriebe>
+  <BeschleunigungAufHundert>4,2 s</BeschleunigungAufHundert>
+  <Emissionsklasse>Euro 6</Emissionsklasse>
+  <Kraftstoffart>Benzin</Kraftstoffart>
+  <KraftstoffverbrauchNEFZ>
+      <Innerorts>15,3 l/100km</Innerorts>
+      <Außerorts>8,9 l/100km</Außerorts>
+      <Kombiniert>10,8 l/100km</Kombiniert>
+  </KraftstoffverbrauchNEFZ>
+</Auto>
