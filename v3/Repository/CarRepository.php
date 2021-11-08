@@ -36,7 +36,7 @@ class CarRepository
             $car->setEmissionsklasse($data->Emissionsklasse);
             $car->setKraftstoffart($data->Kraftstoffart);
             $car->setInnerorts($data->KraftstoffverbrauchNEFZ->Innerorts);
-            $car->setAußerorts($data->KraftstoffverbrauchNEFZ->Außerorts);
+            $car->setAußerorts($data->KraftstoffverbrauchNEFZ->Ausserorts);
             $car->setKombiniert($data->KraftstoffverbrauchNEFZ->Kombiniert);
             /**..... */
 

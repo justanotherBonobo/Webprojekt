@@ -21,7 +21,7 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="Innerorts"/>
-              <xs:element type="xs:string" name="Außerorts"/>
+              <xs:element type="xs:string" name="Ausserorts"/>
               <xs:element type="xs:string" name="Kombiniert"/>
             </xs:sequence>
           </xs:complexType>

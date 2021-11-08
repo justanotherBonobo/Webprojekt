@@ -20,7 +20,7 @@
     <Kraftstoffart>Benzin</Kraftstoffart>
     <KraftstoffverbrauchNEFZ>
         <Innerorts>14,7 l/100km</Innerorts>
-        <Außerorts>8,5 l/100km</Außerorts>
+        <Ausserorts>8,5 l/100km</Ausserorts>
         <Kombiniert>10,8 l/100km</Kombiniert>
     </KraftstoffverbrauchNEFZ>
 </Auto>
@@ -43,7 +43,7 @@
   <Kraftstoffart>Benzin</Kraftstoffart>
   <KraftstoffverbrauchNEFZ>
       <Innerorts>15,3 l/100km</Innerorts>
-      <Außerorts>8,9 l/100km</Außerorts>
+      <Ausserorts>8,9 l/100km</Ausserorts>
       <Kombiniert>10,8 l/100km</Kombiniert>
   </KraftstoffverbrauchNEFZ>
 </Auto>
@@ -67,7 +67,7 @@
     <Kraftstoffart>Benzin</Kraftstoffart>
     <KraftstoffverbrauchNEFZ>
         <Innerorts>8,9 l/100km</Innerorts>
-        <Außerorts>5,5 l/100km</Außerorts>
+        <Ausserorts>5,5 l/100km</Ausserorts>
         <Kombiniert>6,5 l/100km</Kombiniert>
     </KraftstoffverbrauchNEFZ>
   </Auto>
@@ -90,7 +90,7 @@
     <Kraftstoffart>Benzin</Kraftstoffart>
     <KraftstoffverbrauchNEFZ>
         <Innerorts>8,9 l/100km</Innerorts>
-        <Außerorts>5,5 l/100km</Außerorts>
+        <Ausserorts>5,5 l/100km</Ausserorts>
         <Kombiniert>6,5 l/100km</Kombiniert>
     </KraftstoffverbrauchNEFZ>
   </Auto>
@@ -113,7 +113,7 @@
     <Kraftstoffart>Diesel</Kraftstoffart>
     <KraftstoffverbrauchNEFZ>
         <Innerorts>10,6 l/100km</Innerorts>
-        <Außerorts>7,6 l/100km</Außerorts>
+        <Ausserorts>7,6 l/100km</Ausserorts>
         <Kombiniert>6,3 l/100km</Kombiniert>
     </KraftstoffverbrauchNEFZ>
   </Auto>
@@ -136,7 +136,7 @@
     <Kraftstoffart>Diesel</Kraftstoffart>
     <KraftstoffverbrauchNEFZ>
         <Innerorts>10,6 l/100km</Innerorts>
-        <Außerorts>7,6 l/100km</Außerorts>
+        <Ausserorts>7,6 l/100km</Ausserorts>
         <Kombiniert>6,3 l/100km</Kombiniert>
     </KraftstoffverbrauchNEFZ>
   </Auto>

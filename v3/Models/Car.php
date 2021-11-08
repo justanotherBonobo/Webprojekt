@@ -23,7 +23,7 @@ private $_beschleunigungAufHundert;
 private $_emissionsklasse;
 private $_kraftstoffart;
 private $_innerorts;
-private $_außerorts;
+private $_ausserorts;
 private $_kombiniert;
 
 
@@ -187,9 +187,9 @@ public function getAußerorts()
 return $this->_außerorts;
 }
 
-public function setAußerorts($außerorts)
+public function setAußerorts($ausserorts)
 {
-$this->_außerorts = $außerorts;
+$this->_außerorts = $ausserorts;
 }
 
 public function getKombiniert()
