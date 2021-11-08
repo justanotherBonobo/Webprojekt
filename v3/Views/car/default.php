@@ -1,5 +1,5 @@
 <h2 class="title">Meine Autos</h2>
-
+<?php print_r($this->getData('error')) ?>
 
 <ul class="list-group">
     <?php foreach($this->getData('carList') as $car): ?>

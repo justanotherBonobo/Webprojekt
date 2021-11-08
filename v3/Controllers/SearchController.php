@@ -48,18 +48,35 @@ class SearchController extends AbstractController
     }
 
     public function searchCheck($car, $query){
-        if (
-            (stripos($car->getModell(), $query) !== false)||
-            (stripos($car->getMarke(), $query) !== false)||
-            (stripos($car->getFarbe(), $query) !== false)||
-            (stripos($car->getZustand(), $query) !== false)||
-            (stripos($car->getKraftstoffart(), $query) !== false)||
-            (stripos($car->getErstzulassung(), $query) !== false)
-        )
-        {
-            return true;
-        } 
-        return false;
+        $queryArr = explode(' ', $query);
+        $result = false;
+        foreach($queryArr as $word){
+            if (
+                (stripos($car->getModell(), $word) !== false)||
+                (stripos($car->getMarke(), $word) !== false)||
+                (stripos($car->getFarbe(), $word) !== false)||
+                (stripos($car->getZustand(), $word) !== false)||
+                (stripos($car->getKraftstoffart(), $word) !== false)||
+                (stripos($car->getKilometerstand(), $word) !== false)||
+                (stripos($car->getPreis(), $word) !== false)||
+                (stripos($car->getLeistung(), $word) !== false)||
+                (stripos($car->getHoechstgeschwindigkeit(), $word) !== false)||
+                (stripos($car->getGetriebe(), $word) !== false)||
+                (stripos($car->getBeschleuigungAufHundert(), $word) !== false)||
+                (stripos($car->getEmissionsklasse(), $word) !== false)||
+                (stripos($car->getErstzulassung(), $word) !== false)
+            )
+    
+            {
+                $result = true;
+            }
+            else{
+                $result = false;
+                break;
+            } 
+        }
+        
+        return $result;
 
     }
 }

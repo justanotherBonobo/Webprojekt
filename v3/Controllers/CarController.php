@@ -18,6 +18,7 @@ class CarController extends AbstractController
         // load car list from json file
         // into our repository        
         $this->carRepository = new CarRepository();
+        $this->valid = $this->carRepository->checkXML('data/cars.xml', 'data/carsScheme.xsd');
         $this->carRepository->loadXML('data/cars.xml');
     }
 
@@ -26,6 +27,7 @@ class CarController extends AbstractController
      */
     public function defaultAction()
     {
+        $this->setData('error', $this->valid);
         $this->setData('carList', $this->carRepository->getElements());
     }
 
