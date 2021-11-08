@@ -7,7 +7,7 @@
     <img>718_schwarz.jpg</img>
     <Marke>Porsche</Marke>
     <Modell>718 Cayman</Modell>
-    <Preis>89000 Euro</Preis>
+    <Preis>89.000 Euro</Preis>
     <Zustand>neu</Zustand>
     <Erstzulassung>2021</Erstzulassung>
     <Kilometerstand>599 km</Kilometerstand>
@@ -31,7 +31,7 @@
   <img>911_rot.jpg</img>
   <Marke>Porsche</Marke>
   <Modell>911 Carrera</Modell>
-  <Preis>137000 Euro</Preis>
+  <Preis>137.000 Euro</Preis>
   <Zustand>neu</Zustand>
   <Erstzulassung>2021</Erstzulassung>
   <Kilometerstand>400 km</Kilometerstand>
@@ -56,7 +56,7 @@
     <img>a1_grau.jpeg</img>
     <Marke>Audi</Marke>
     <Modell>A1 Sportback</Modell>
-    <Preis>26000 Euro</Preis>
+    <Preis>26.000 Euro</Preis>
     <Zustand>neu</Zustand>
     <Erstzulassung>2021</Erstzulassung>
     <Kilometerstand>350 km</Kilometerstand>
@@ -79,7 +79,7 @@
     <img>a1_gelb.jpg</img>
     <Marke>Audi</Marke>
     <Modell>A1 Sportback</Modell>
-    <Preis>26000 Euro</Preis>
+    <Preis>26.000 Euro</Preis>
     <Zustand>gebraucht</Zustand>
     <Erstzulassung>2020</Erstzulassung>
     <Kilometerstand>12000 km</Kilometerstand>
@@ -102,7 +102,7 @@
     <img>s-klasse_weiss.jpg</img>
     <Marke>Mercedes-Benz</Marke>
     <Modell>S-Klasse Limousine</Modell>
-    <Preis>110000 Euro</Preis>
+    <Preis>110.000 Euro</Preis>
     <Zustand>neu</Zustand>
     <Erstzulassung>2021</Erstzulassung>
     <Kilometerstand>1001 km</Kilometerstand>
