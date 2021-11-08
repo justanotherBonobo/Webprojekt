@@ -12,6 +12,7 @@
     <Erstzulassung>2021</Erstzulassung>
     <Kilometerstand>599 km</Kilometerstand>
     <Farbe>schwarz</Farbe>
+    <Höchstgeschwindigkeit>100km/h</Höchstgeschwindigkeit>
     <Leistung>400 PS</Leistung>
     <Getriebe>Automatik</Getriebe>
     <BeschleunigungAufHundert>5,1 s</BeschleunigungAufHundert>
@@ -34,6 +35,7 @@
   <Erstzulassung>2021</Erstzulassung>
   <Kilometerstand>400 km</Kilometerstand>
   <Farbe>rot</Farbe>
+  <Höchstgeschwindigkeit>100km/h</Höchstgeschwindigkeit>
   <Leistung>385 PS</Leistung>
   <Getriebe>Automatik</Getriebe>
   <BeschleunigungAufHundert>4,2 s</BeschleunigungAufHundert>

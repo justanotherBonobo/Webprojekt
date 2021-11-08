@@ -12,6 +12,7 @@
         <b>Erstzulassung:</b> <?php echo $this->getData('car')->getErstzulassung(); ?><br />
         <b>Kilometerstand:</b> <?php echo $this->getData('car')->getKilometerstand(); ?><br />
         <b>Farbe:</b> <?php echo $this->getData('car')->getFarbe(); ?><br />
+        <b>Höchstgeschwindigkeit:</b> <?php echo $this->getData('car')->getHöchstgeschwindigkeit(); ?><br />
         <b>Leistung:</b> <?php echo $this->getData('car')->getLeistung(); ?><br />
         <b>Getriebe:</b> <?php echo $this->getData('car')->getGetriebe(); ?><br />
         <b>Von 0 auf 100:</b> <?php echo $this->getData('car')->getBeschleuigungAufHundert(); ?><br />

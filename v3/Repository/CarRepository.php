@@ -30,6 +30,7 @@ class CarRepository
             $car->setErstzulassung($data->Erstzulassung);
             $car->setKilometerstand($data->Kilometerstand);
             $car->setFarbe($data->Farbe);
+            $car->setHöchstgeschwindigkeit($data->Höchstgeschwindigkeit);
             $car->setLeistung($data->Leistung);
             $car->setGetriebe($data->Getriebe);
             $car->setBeschleuigungAufHundert($data->BeschleunigungAufHundert);

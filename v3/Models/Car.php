@@ -17,6 +17,7 @@ private $_zustand;
 private $_erstzulassung;
 private $_kilometerstand;
 private $_farbe;
+private $_höchsgeschwindigkeit;
 private $_leistung;
 private $_getriebe;
 private $_beschleunigungAufHundert;
@@ -121,6 +122,16 @@ return $this->_farbe;
 public function setFarbe($farbe)
 {
 $this->_farbe = $farbe;
+}
+
+public function getHöchstgeschwindigkeit()
+{
+return $this->_höchstgeschwindigkeit;
+}
+
+public function setHöchstgeschwindigkeit($höchstgeschwindigkeit)
+{
+$this->_höchstgeschwindigkeit = $höchstgeschwindigkeit;
 }
 
 public function getLeistung()
