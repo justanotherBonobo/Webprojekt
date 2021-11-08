@@ -1,1 +1,0 @@
-<h1>This was loaded via ajax</h1>
