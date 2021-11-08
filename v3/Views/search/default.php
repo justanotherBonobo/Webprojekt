@@ -2,7 +2,13 @@
 <p>
     Ihre Suche nach <b><?php echo $this->getData('query'); ?></b> ergab <b><?php echo count($this->getData('result')); ?></b> Treffer
 </p>
+
 <br>
+<?php if ($this->getData('valid') != true) {
+    echo ('<div class="alert alert-danger" role="alert">
+        XML-Datei konnte nicht validiert werden
+        </div>');
+} ?>
 
 <ul class="list-group">
     <?php 

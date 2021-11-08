@@ -27,7 +27,7 @@ class CarController extends AbstractController
      */
     public function defaultAction()
     {
-        $this->setData('error', $this->valid);
+        $this->setData('valid', $this->valid);
         $this->setData('carList', $this->carRepository->getElements());
     }
 

@@ -19,6 +19,7 @@ class SearchController extends AbstractController
         $this->carRepository = new CarRepository();
         $this->carRepository->loadXML('data/cars.xml');
         $this->list = $this->carRepository->getElements();
+        $this->valid = $this->carRepository->checkXML('data/cars.xml', 'data/carsScheme.xsd');
     }
 
     /**
@@ -27,6 +28,8 @@ class SearchController extends AbstractController
     public function defaultAction()
     {
         $searchQuery = $_POST['query'];
+
+        $this->setData('valid', $this->valid);
         
         // do the search here ...
         $result = [];
