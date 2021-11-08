@@ -30,14 +30,14 @@ class CarRepository
             $car->setErstzulassung($data->Erstzulassung);
             $car->setKilometerstand($data->Kilometerstand);
             $car->setFarbe($data->Farbe);
-            $car->setHöchstgeschwindigkeit($data->Höchstgeschwindigkeit);
+            $car->setHoechstgeschwindigkeit($data->Hoechstgeschwindigkeit);
             $car->setLeistung($data->Leistung);
             $car->setGetriebe($data->Getriebe);
             $car->setBeschleuigungAufHundert($data->BeschleunigungAufHundert);
             $car->setEmissionsklasse($data->Emissionsklasse);
             $car->setKraftstoffart($data->Kraftstoffart);
             $car->setInnerorts($data->KraftstoffverbrauchNEFZ->Innerorts);
-            $car->setAußerorts($data->KraftstoffverbrauchNEFZ->Ausserorts);
+            $car->setAusserorts($data->KraftstoffverbrauchNEFZ->Ausserorts);
             $car->setKombiniert($data->KraftstoffverbrauchNEFZ->Kombiniert);
             /**..... */
 

@@ -17,7 +17,7 @@ private $_zustand;
 private $_erstzulassung;
 private $_kilometerstand;
 private $_farbe;
-private $_höchsgeschwindigkeit;
+private $_hoechstgeschwindigkeit;
 private $_leistung;
 private $_getriebe;
 private $_beschleunigungAufHundert;
@@ -124,14 +124,14 @@ public function setFarbe($farbe)
 $this->_farbe = $farbe;
 }
 
-public function getHöchstgeschwindigkeit()
+public function getHoechstgeschwindigkeit()
 {
-return $this->_höchstgeschwindigkeit;
+return $this->_hoechstgeschwindigkeit;
 }
 
-public function setHöchstgeschwindigkeit($höchstgeschwindigkeit)
+public function setHoechstgeschwindigkeit($hoechstgeschwindigkeit)
 {
-$this->_höchstgeschwindigkeit = $höchstgeschwindigkeit;
+$this->_hoechstgeschwindigkeit = $hoechstgeschwindigkeit;
 }
 
 public function getLeistung()
@@ -193,14 +193,14 @@ public function setInnerorts($innerorts)
 $this->_innerorts = $innerorts;
 }
 
-public function getAußerorts()
+public function getAusserorts()
 {
-return $this->_außerorts;
+return $this->_ausserorts;
 }
 
-public function setAußerorts($ausserorts)
+public function setAusserorts($ausserorts)
 {
-$this->_außerorts = $ausserorts;
+$this->_ausserorts = $ausserorts;
 }
 
 public function getKombiniert()

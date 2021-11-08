@@ -76,7 +76,7 @@
 
   <!-- viertes Auto Element Audi A1 Sportback gelb-->
 <Auto ID= "103">
-    <img>a1_gelb.jpeg</img>
+    <img>a1_gelb.jpg</img>
     <Marke>Audi</Marke>
     <Modell>A1 Sportback</Modell>
     <Preis>26000 Euro</Preis>
@@ -99,7 +99,7 @@
 
     <!-- fünftes Auto Element Mercedes Benz S-Klasse weiss-->
 <Auto ID= "104">
-    <img>s-klasse_weiss.jpeg</img>
+    <img>s-klasse_weiss.jpg</img>
     <Marke>Mercedes-Benz</Marke>
     <Modell>S-Klasse Limousine</Modell>
     <Preis>110000 Euro</Preis>
@@ -122,7 +122,7 @@
 
       <!-- sechstes Auto Element Mercedes Benz S-Klasse schwarz-->
 <Auto ID= "106">
-    <img>s-klasse_schwarz.jpeg</img>
+    <img>s-klasse_schwarz.jpg</img>
     <Marke>Mercedes-Benz</Marke>
     <Modell>S-Klasse Limousine</Modell>
     <Preis>110000 Euro</Preis>

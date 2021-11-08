@@ -12,14 +12,14 @@
         <b>Erstzulassung:</b> <?php echo $this->getData('car')->getErstzulassung(); ?><br />
         <b>Kilometerstand:</b> <?php echo $this->getData('car')->getKilometerstand(); ?><br />
         <b>Farbe:</b> <?php echo $this->getData('car')->getFarbe(); ?><br />
-        <b>Höchstgeschwindigkeit:</b> <?php echo $this->getData('car')->getHöchstgeschwindigkeit(); ?><br />
+        <b>Höchstgeschwindigkeit:</b> <?php echo $this->getData('car')->getHoechstgeschwindigkeit(); ?><br />
         <b>Leistung:</b> <?php echo $this->getData('car')->getLeistung(); ?><br />
         <b>Getriebe:</b> <?php echo $this->getData('car')->getGetriebe(); ?><br />
         <b>Von 0 auf 100:</b> <?php echo $this->getData('car')->getBeschleuigungAufHundert(); ?><br />
         <b>Emissionsklasse:</b> <?php echo $this->getData('car')->getEmissionsklasse(); ?><br />
         <b>Kraftstoffart:</b> <?php echo $this->getData('car')->getKraftstoffart(); ?><br />
         <b>Verbrauch Innerorts:</b> <?php echo $this->getData('car')->getInnerorts(); ?><br />
-        <b>Verbrauch Außerorts:</b> <?php echo $this->getData('car')->getAußerorts(); ?><br />
+        <b>Verbrauch Außerorts:</b> <?php echo $this->getData('car')->getAusserorts(); ?><br />
         <b>Verbrauch Kombiniert:</b> <?php echo $this->getData('car')->getKombiniert(); ?><br />
         </p>
 
