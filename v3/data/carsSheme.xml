@@ -14,6 +14,7 @@
         <xs:element type="xs:string" name="Leistung"/>
         <xs:element type="xs:string" name="Getriebe"/>
         <xs:element type="xs:string" name="BeschleunigungAufHundert"/>
+        <xs:element type="xs:string" name="Hoechstgeschwindigkeit"/>
         <xs:element type="xs:string" name="Emissionsklasse"/>
         <xs:element type="xs:string" name="Kraftstoffart"/>
         <xs:element name="KraftstoffverbrauchNEFZ">

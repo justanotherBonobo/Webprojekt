@@ -15,6 +15,7 @@
     <Leistung>400 PS</Leistung>
     <Getriebe>Automatik</Getriebe>
     <BeschleunigungAufHundert>5,1 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>258 km/h</Hoechstgeschwindigkeit>
     <Emissionsklasse>Euro 6</Emissionsklasse>
     <Kraftstoffart>Benzin</Kraftstoffart>
     <KraftstoffverbrauchNEFZ>
@@ -37,6 +38,7 @@
   <Leistung>385 PS</Leistung>
   <Getriebe>Automatik</Getriebe>
   <BeschleunigungAufHundert>4,2 s</BeschleunigungAufHundert>
+  <Hoechstgeschwindigkeit>291 km/h</Hoechstgeschwindigkeit>
   <Emissionsklasse>Euro 6</Emissionsklasse>
   <Kraftstoffart>Benzin</Kraftstoffart>
   <KraftstoffverbrauchNEFZ>
@@ -45,4 +47,98 @@
       <Kombiniert>10,8 l/100km</Kombiniert>
   </KraftstoffverbrauchNEFZ>
 </Auto>
-</Autos>
+
+
+<!-- drittes Auto Element Audi A1 Sportback grau-->
+<Auto ID= "102">
+    <img>a1_grau.jpeg</img>
+    <Marke>Audi</Marke>
+    <Modell>A1 Sportback</Modell>
+    <Preis>26000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>350 km</Kilometerstand>
+    <Farbe>grau</Farbe>
+    <Leistung>105 PS</Leistung>
+    <Getriebe>5-Gang-Handschaltgetriebe</Getriebe>
+    <BeschleunigungAufHundert>10,8 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>191 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>8,9 l/100km</Innerorts>
+        <Außerorts>5,5 l/100km</Außerorts>
+        <Kombiniert>6,5 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+  <!-- viertes Auto Element Audi A1 Sportback gelb-->
+<Auto ID= "103">
+    <img>a1_gelb.jpeg</img>
+    <Marke>Audi</Marke>
+    <Modell>A1 Sportback</Modell>
+    <Preis>26000 Euro</Preis>
+    <Zustand>gebraucht</Zustand>
+    <Erstzulassung>2020</Erstzulassung>
+    <Kilometerstand>12000 km</Kilometerstand>
+    <Farbe>gelb</Farbe>
+    <Leistung>105 PS</Leistung>
+    <Getriebe>5-Gang-Handschaltgetriebe</Getriebe>
+    <BeschleunigungAufHundert>10,8 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>191 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>8,9 l/100km</Innerorts>
+        <Außerorts>5,5 l/100km</Außerorts>
+        <Kombiniert>6,5 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+    <!-- fünftes Auto Element Mercedes Benz S-Klasse weiss-->
+<Auto ID= "104">
+    <img>s-klasse_weiss.jpeg</img>
+    <Marke>Mercedes-Benz</Marke>
+    <Modell>S-Klasse Limousine</Modell>
+    <Preis>110000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>1001 km</Kilometerstand>
+    <Farbe>weiss</Farbe>
+    <Leistung>286 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>6,2 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>250 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Diesel</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>10,6 l/100km</Innerorts>
+        <Außerorts>7,6 l/100km</Außerorts>
+        <Kombiniert>6,3 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+      <!-- sechstes Auto Element Mercedes Benz S-Klasse schwarz-->
+<Auto ID= "106">
+    <img>s-klasse_schwarz.jpeg</img>
+    <Marke>Mercedes-Benz</Marke>
+    <Modell>S-Klasse Limousine</Modell>
+    <Preis>110000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>556 km</Kilometerstand>
+    <Farbe>schwarz</Farbe>
+    <Leistung>286 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>6,2 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>250 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Diesel</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>10,6 l/100km</Innerorts>
+        <Außerorts>7,6 l/100km</Außerorts>
+        <Kombiniert>6,3 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+  </Autos>
