@@ -15,8 +15,9 @@ class CarController extends AbstractController
 
     public function _init()
     {
-        // load car list from json file
-        // into our repository        
+        // load car list from xml file
+        // into our repository
+        // and check for the schema        
         $this->carRepository = new CarRepository();
         $this->valid = $this->carRepository->checkXML('data/cars.xml', 'data/carsScheme.xsd');
         $this->carRepository->loadXML('data/cars.xml');
@@ -27,6 +28,7 @@ class CarController extends AbstractController
      */
     public function defaultAction()
     {
+        //send cars to frontend
         $this->setData('valid', $this->valid);
         $this->setData('carList', $this->carRepository->getElements());
     }
@@ -36,8 +38,7 @@ class CarController extends AbstractController
      */
     public function detailAction()
     {
-        // TODO: validate that id is in the get params
-        // and that it holds a valid int
+        // send car with specific ID to frontend 
         $this->setData('car', $this->carRepository->findById($_GET['id']));
     }
 }

@@ -6,7 +6,7 @@ namespace Models;
 
 use Framework\ModelInterface;
 
-
+//Car Model with getter and setter methods
 class Car implements ModelInterface {
 private $_img;
 private $_id;

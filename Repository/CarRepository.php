@@ -20,7 +20,7 @@ class CarRepository
     {
         foreach($xml->Auto as $data) {
             $car = new Car();
-
+            //iterate through the car objects in the XML file and create a car object with all attributes
             $car->setImg($data->img);
             $car->setId($data['ID']);
             $car->setMarke($data->Marke);
@@ -39,7 +39,8 @@ class CarRepository
             $car->setInnerorts($data->KraftstoffverbrauchNEFZ->Innerorts);
             $car->setAusserorts($data->KraftstoffverbrauchNEFZ->Ausserorts);
             $car->setKombiniert($data->KraftstoffverbrauchNEFZ->Kombiniert);
-
+            
+            //append the created car object to the cars array
             $this->_list[] = $car;
         }
     }

@@ -14,8 +14,9 @@ class SearchController extends AbstractController
 
     public function _init()
     {
-        // load car list from json file
-        // into our repository        
+        // load car list from xml file
+        // into our repository   
+        // and check with schema     
         $this->carRepository = new CarRepository();
         $this->carRepository->loadXML('data/cars.xml');
         $this->list = $this->carRepository->getElements();
@@ -31,9 +32,9 @@ class SearchController extends AbstractController
 
         $this->setData('valid', $this->valid);
         
-        // do the search here ...
         $result = [];
     
+        //check if the cars match with th query
         foreach($this->list as $car) {
             
             
@@ -50,6 +51,8 @@ class SearchController extends AbstractController
 
     }
 
+
+    //function for searching the cars
     public function searchCheck($car, $query){
         $queryArr = explode(' ', $query);
         $result = false;

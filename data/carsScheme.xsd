@@ -3,9 +3,6 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="Auto" maxOccurs="unbounded" minOccurs="0">
-          <xs:annotation>
-            <xs:documentation>erstes Auto Element Porsche 718 Cayman  zweites Auto Element Porsche 911 Carrera  drittes Auto Element Audi A1 Sportback grau viertes Auto Element Audi A1 Sportback gelb fünftes Auto Element Mercedes Benz S-Klasse weiss sechstes Auto Element Mercedes Benz S-Klasse schwarz</xs:documentation>
-          </xs:annotation>
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="img"/>
