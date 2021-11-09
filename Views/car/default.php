@@ -1,5 +1,6 @@
 <h2 class="title">Meine Autos</h2>
 <?php if ($this->getData('valid') != true) {
+    //Warning if XML cant get validated by the schema
     echo ('<div class="alert alert-danger" role="alert">
         XML-Datei konnte nicht validiert werden
         </div>');
