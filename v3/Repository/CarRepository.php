@@ -39,7 +39,6 @@ class CarRepository
             $car->setInnerorts($data->KraftstoffverbrauchNEFZ->Innerorts);
             $car->setAusserorts($data->KraftstoffverbrauchNEFZ->Ausserorts);
             $car->setKombiniert($data->KraftstoffverbrauchNEFZ->Kombiniert);
-            /**..... */
 
             $this->_list[] = $car;
         }

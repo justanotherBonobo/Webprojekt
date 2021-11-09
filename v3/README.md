@@ -18,10 +18,22 @@ https://ubuntu.com/download/desktop
 5. Default Settings for everything else
 6. Finish the installation as normal install.
 7. On VirtualBox main window, select START and pick your MEDIA SOURCE. In your case, select the .iso on your desktop.
-Remove your installation .iso from the virtual optical disk drive before restarting the VM.
-Install Guest Additions.
+8. Install Guest Additions
 
+## Setup Ubuntu with Lamp Stack
+1. Skip all the intro stuff of the Ubuntu installation menu 
+2. Start Terminal and execute all the following statements
+		
+		sudo apt-update && sudo apt upgrade –ysudo 
 
+		sudo apt install tasksel vim mc -y 
+
+		sudo tasksel install lamp-server 
+3. Check if you now have the /var/www/html/
+
+## Start the Webpage
+1. Extract the folder with the code and paste it into the /var/www/html/
+2. Open page in browser http://localhost/DiesUndDas/v3/
 
 ## apache rewrite
 1) sudo a2enmod rewrite
