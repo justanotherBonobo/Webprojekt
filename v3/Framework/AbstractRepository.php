@@ -11,17 +11,6 @@ abstract class AbstractRepository
     /**
      * load contents from a json file
      */
-    public function loadJson($filename)
-    {
-        if (file_exists($filename)) {
-            $fileContentAsJson = file_get_contents($filename);
-            $fileContent = json_decode($fileContentAsJson, true);
-
-            $this->createObjects($fileContent);
-        } else {
-            die('file not found');
-        }
-    }
 
     public function loadXML($filename)
     {
@@ -36,27 +25,29 @@ abstract class AbstractRepository
     }
 
     public function checkXML($xmlFilename, $schemaFilename)
-        {
-            if (file_exists($xmlFilename)) {
-                $xmlContent = file_get_contents($xmlFilename);
-                $xml = new DOMDocument();
-                $xml->loadXML($xmlContent, LIBXML_NOBLANKS);
-                if ($xml->schemaValidate($schemaFilename)){
+    {
+        if (file_exists($xmlFilename)) {
+            $xmlContent = file_get_contents($xmlFilename);
+            $xml = new DOMDocument();
+            $xml->loadXML($xmlContent, LIBXML_NOBLANKS);
+                if ($xml->schemaValidate($schemaFilename)) {
                     return true;
                 }
                 return false;
-            } else {
-                die('file not found');
-            }
+            
+        } else {
+            die('file not found');
+        }
     }
 
     /**
      * find an item in the list by its id
      */
-    public function findById($id) {
+    public function findById($id)
+    {
         $itemFound = null;
 
-        foreach($this->_list as $item) {
+        foreach ($this->_list as $item) {
             if ($item->getId() == $id) {
                 $itemFound = $item;
             }

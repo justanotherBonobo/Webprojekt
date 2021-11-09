@@ -6,5 +6,6 @@
     <h1 class="display-5 fw-bold">Herzlich willkommen</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Wir bieten Ihnen eine große Auswahl an Neu- und Gebrauchtfahrzeugen.</p>
+      
     </div>
   </div>
