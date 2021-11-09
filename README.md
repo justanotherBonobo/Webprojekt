@@ -38,7 +38,7 @@ https://ubuntu.com/download/desktop
 ## Start the Webpage
 1. Extract the folder with the code and paste it into the /var/www/html/
 3. Remove index.html file from /var/www/html/
-2. Open page in browser http://localhost/DiesUndDas/v3/
+2. Open page in browser http://localhost/Webprojekt/
 3. You should see the Startpage
 
 ## Rewrite apache
