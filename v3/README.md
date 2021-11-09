@@ -1,4 +1,27 @@
-# Setup
+# Setup Website on Ubuntu 
+
+## Download and install Virtual Box 
+
+https://www.virtualbox.org/wiki/Downloads 
+
+## Download Ubuntu ISO 
+
+https://ubuntu.com/download/desktop 
+
+
+## Create Virtual Machine in Virtual Box
+
+
+1. Open VirtualBox and select New
+2. Choose your guest OS (Ubuntu Linux)
+3. Set your RAM on 2048 GB or more
+5. Default Settings for everything else
+6. Finish the installation as normal install.
+7. On VirtualBox main window, select START and pick your MEDIA SOURCE. In your case, select the .iso on your desktop.
+Remove your installation .iso from the virtual optical disk drive before restarting the VM.
+Install Guest Additions.
+
+
 
 ## apache rewrite
 1) sudo a2enmod rewrite
