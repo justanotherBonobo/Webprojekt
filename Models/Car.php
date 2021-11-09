@@ -148,7 +148,6 @@ public function getGetriebe()
 return $this->_getriebe;
 }
 
-
 public function setGetriebe($getriebe)
 {
 $this->_getriebe = $getriebe;

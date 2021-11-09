@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link" href="/DiesUndDas/v3">Home</a>
+          <a class="nav-link" href="/Webprojekt">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/DiesUndDas/v3/car">Autos</a>
+          <a class="nav-link" href="/Webprojekt/car">Autos</a>
         </li>
       </ul>
-      <form class="d-flex" action="/DiesUndDas/v3/search" method="POST">
+      <form class="d-flex" action="/Webprojekt/search" method="POST">
         <input class="form-control me-2" type="search" name="query" placeholder="Search">
         <button class="btn btn-warning" type="submit">Search</button>
 

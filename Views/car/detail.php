@@ -1,5 +1,5 @@
 <div class="card" style="width: 40rem;">
-<img src="/DiesUndDas/v3/data/images/<?php echo $this->getData('car')->getImg()?>" class="rounded float-left">
+<img src="/Webprojekt/data/images/<?php echo $this->getData('car')->getImg()?>" class="rounded float-left">
   <div class="card-body">
 
 
@@ -29,6 +29,6 @@
 
 <hr />
 
-<a class="btn btn-secondary" href="/DiesUndDas/v3/car">Zur Übersicht</a>    
+<a class="btn btn-secondary" href="/Webprojekt/car">Zur Übersicht</a>    
 <br>
 <br>
