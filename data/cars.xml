@@ -121,7 +121,7 @@
   </Auto>
 
       <!-- sechstes Auto Element Mercedes Benz S-Klasse schwarz-->
-<Auto ID= "106">
+<Auto ID= "105">
     <img>s-klasse_schwarz.jpg</img>
     <Marke>Mercedes-Benz</Marke>
     <Modell>S-Klasse Limousine</Modell>
@@ -140,6 +140,330 @@
         <Innerorts>10,6 l/100km</Innerorts>
         <Ausserorts>7,6 l/100km</Ausserorts>
         <Kombiniert>6,3 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+        <!-- siebtes Auto Element Mercedes Benz A-Klasse weiss-->
+<Auto ID= "106">
+    <img>a_klasse_weiss.jpg</img>
+    <Marke>Mercedes-Benz</Marke>
+    <Modell>A-Klasse Plug-in-Hybrid</Modell>
+    <Preis>45.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>56 km</Kilometerstand>
+    <Farbe>weiss</Farbe>
+    <Leistung>150 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>8,3 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>217 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Diesel</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>7,6 l/100km</Innerorts>
+        <Ausserorts>4,7 l/100km</Ausserorts>
+        <Kombiniert>5,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+         <!-- achtes Auto Element Mercedes Benz A-Klasse grau-->
+<Auto ID= "107">
+    <img>a-klasse_grau.jpg</img>
+    <Marke>Mercedes-Benz</Marke>
+    <Modell>A-Klasse Plug-in-Hybrid</Modell>
+    <Preis>45.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>560 km</Kilometerstand>
+    <Farbe>grau</Farbe>
+    <Leistung>150 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>8,3 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>217 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Diesel</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>7,6 l/100km</Innerorts>
+        <Ausserorts>4,7 l/100km</Ausserorts>
+        <Kombiniert>5,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+         <!-- neuntes Auto Element Porsche Panamera orange-->
+<Auto ID= "108">
+    <img>panamera_orange.jpg</img>
+    <Marke>Porsche</Marke>
+    <Modell>Panamera Turbo S Sport Turismo </Modell>
+    <Preis>205.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>76 km</Kilometerstand>
+    <Farbe>orange</Farbe>
+    <Leistung>630 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>3,1 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>315 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>15 l/100km</Innerorts>
+        <Ausserorts>8,1 l/100km</Ausserorts>
+        <Kombiniert>11,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+           <!-- zehntes Auto Element Porsche Panamera grau-->
+<Auto ID= "109">
+    <img>panamera_grau.jpg</img>
+    <Marke>Porsche</Marke>
+    <Modell>Panamera Turbo S Sport Turismo </Modell>
+    <Preis>205.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>544 km</Kilometerstand>
+    <Farbe>grau</Farbe>
+    <Leistung>630 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>3,1 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>315 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>15 l/100km</Innerorts>
+        <Ausserorts>8,1 l/100km</Ausserorts>
+        <Kombiniert>11,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+
+      <!-- elftes Auto Element Porsche Cayenne Cashmerebeigemetallic-->
+<Auto ID= "110">
+    <img>cayenne_cashmerebeigemetallic.jpg</img>
+    <Marke>Porsche</Marke>
+    <Modell>Cayenne Coupe </Modell>
+    <Preis>95.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>599 km</Kilometerstand>
+    <Farbe>cashmerebeigemetallic</Farbe>
+    <Leistung>340 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>6,0 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>243 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>11,7 l/100km</Innerorts>
+        <Ausserorts>8,3 l/100km</Ausserorts>
+        <Kombiniert>9,5 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+        <!-- zwoelftes Auto Element Porsche Cayenne Silver-->
+<Auto ID= "111">
+    <img>cayenne_silver.jpg</img>
+    <Marke>Porsche</Marke>
+    <Modell>Cayenne Coupe </Modell>
+    <Preis>95.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>399 km</Kilometerstand>
+    <Farbe>silver</Farbe>
+    <Leistung>340 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>6,0 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>243 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>11,7 l/100km</Innerorts>
+        <Ausserorts>8,3 l/100km</Ausserorts>
+        <Kombiniert>9,5 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+        <!-- dreizehntes Auto Element Lamborghini Sian blau-->
+<Auto ID= "112">
+    <img>Lamborghini_sian_blau.jpg</img>
+    <Marke>Lamborghini</Marke>
+    <Modell>Lamborghini Sian Roadster</Modell>
+    <Preis>2.300.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>59 km</Kilometerstand>
+    <Farbe>blau</Farbe>
+    <Leistung>785 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>2,8 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>350 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>27,8 l/100km</Innerorts>
+        <Ausserorts>17,8 l/100km</Ausserorts>
+        <Kombiniert>19,2 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+          <!-- vierzehntes Auto Element Lamborghini Sian gruen-->
+<Auto ID= "113">
+    <img>Lamborghini_Sian_gruen.jpg</img>
+    <Marke>Lamborghini</Marke>
+    <Modell>Lamborghini Sian Roadster</Modell>
+    <Preis>2.300.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>43 km</Kilometerstand>
+    <Farbe>gruen</Farbe>
+    <Leistung>785 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>2,8 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>350 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>27,8 l/100km</Innerorts>
+        <Ausserorts>17,8 l/100km</Ausserorts>
+        <Kombiniert>19,2 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+            <!-- fuenfzehntes Auto Element Rentault Megane III weiss-->
+<Auto ID= "114">
+    <img>renault_megane_iii_weiss.jpg</img>
+    <Marke>Renault</Marke>
+    <Modell>Renault Megane III</Modell>
+    <Preis> 22.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>43 km</Kilometerstand>
+    <Farbe>weiss</Farbe>
+    <Leistung>110 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>10,5 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>190 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>8,5 l/100km</Innerorts>
+        <Ausserorts>5,6 l/100km</Ausserorts>
+        <Kombiniert>7,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+              <!-- sechszehntes Auto Element Rentault Megane III blau-->
+<Auto ID= "115">
+    <img>renault_megane_iii-d37_blau.jpg</img>
+    <Marke>Renault</Marke>
+    <Modell>Renault Megane III</Modell>
+    <Preis> 22.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>57 km</Kilometerstand>
+    <Farbe>blau</Farbe>
+    <Leistung>110 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>10,5 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>190 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>8,5 l/100km</Innerorts>
+        <Ausserorts>5,6 l/100km</Ausserorts>
+        <Kombiniert>7,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+              <!--siebzehntes Auto Element VW Tiguan weiss-->
+<Auto ID= "116">
+    <img>vw_tiguan_weiss.jpg</img>
+    <Marke>Volkswagen</Marke>
+    <Modell>VW Tiguan</Modell>
+    <Preis> 32.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>467 km</Kilometerstand>
+    <Farbe>weiss</Farbe>
+    <Leistung>130 PS</Leistung>
+    <Getriebe>6-Gang-Schaltgetriebe</Getriebe>
+    <BeschleunigungAufHundert>10,6 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>195 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>6,4 l/100km</Innerorts>
+        <Ausserorts>5,0 l/100km</Ausserorts>
+        <Kombiniert>5,5 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+                <!--achtzehntes Auto Element VW Tiguan blau-->
+<Auto ID= "117">
+    <img>vw_tiguan_blau.jpg</img>
+    <Marke>Volkswagen</Marke>
+    <Modell>VW Tiguan</Modell>
+    <Preis> 32.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>543 km</Kilometerstand>
+    <Farbe>blau</Farbe>
+    <Leistung>130 PS</Leistung>
+    <Getriebe>6-Gang-Schaltgetriebe</Getriebe>
+    <BeschleunigungAufHundert>10,6 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>195 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>6,4 l/100km</Innerorts>
+        <Ausserorts>5,0 l/100km</Ausserorts>
+        <Kombiniert>5,5 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+                <!--neunzehntes Auto Element Ferrari SF90 Stradale rot-->
+<Auto ID= "118">
+    <img>SF90_stradale_rot.jpg</img>
+    <Marke>Ferrari</Marke>
+    <Modell>SF90 Stradale Plug-in-Hybrid</Modell>
+    <Preis>460.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>46 km</Kilometerstand>
+    <Farbe>rot</Farbe>
+    <Leistung>1000 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>2,5 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>340 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 4</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>6,8 l/100km</Innerorts>
+        <Ausserorts>5,2 l/100km</Ausserorts>
+        <Kombiniert>6,1 l/100km</Kombiniert>
+    </KraftstoffverbrauchNEFZ>
+  </Auto>
+
+
+                <!--zwanzigstes Auto Element Volvo XC60 grau-->
+<Auto ID= "119">
+    <img>Volvo_XC60_grau.jpg</img>
+    <Marke>Volvo</Marke>
+    <Modell>Volvo XC60</Modell>
+    <Preis>48.000 Euro</Preis>
+    <Zustand>neu</Zustand>
+    <Erstzulassung>2021</Erstzulassung>
+    <Kilometerstand>465 km</Kilometerstand>
+    <Farbe>grau</Farbe>
+    <Leistung>197 PS</Leistung>
+    <Getriebe>Automatik</Getriebe>
+    <BeschleunigungAufHundert>5,9 s</BeschleunigungAufHundert>
+    <Hoechstgeschwindigkeit>180 km/h</Hoechstgeschwindigkeit>
+    <Emissionsklasse>Euro 6</Emissionsklasse>
+    <Kraftstoffart>Benzin</Kraftstoffart>
+    <KraftstoffverbrauchNEFZ>
+        <Innerorts>4,9 l/100km</Innerorts>
+        <Ausserorts>6,7 l/100km</Ausserorts>
+        <Kombiniert>5,5 l/100km</Kombiniert>
     </KraftstoffverbrauchNEFZ>
   </Auto>
 
