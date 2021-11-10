@@ -2,7 +2,7 @@
 <img src="/Webprojekt/data/images/<?php echo $this->getData('car')->getImg()?>" class="rounded float-left">
   <div class="card-body">
 
-
+    <!-- Detailed view of the car object -->
     <h5 class="card-title title"><?php echo $this->getData('car')->getMarke().' '. $this->getData('car')->getModell(); ?></h5>
     <p class="card-text">
         <b>Marke:</b> <?php echo $this->getData('car')->getMarke(); ?><br />
