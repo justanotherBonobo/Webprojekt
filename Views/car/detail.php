@@ -3,7 +3,9 @@
   <div class="card-body">
 
     <!-- Detailed view of the car object -->
-    <h5 class="card-title title"><?php echo $this->getData('car')->getMarke().' '. $this->getData('car')->getModell(); ?></h5>
+    <h5 class="card-title subtitle"><?php echo $this->getData('car')->getMarke(); ?></h5>
+    <h5 class="card-title title"><?php echo $this->getData('car')->getModell(); ?></h5>
+
     <p class="card-text">
         <b>Marke:</b> <?php echo $this->getData('car')->getMarke(); ?><br />
         <b>Modell:</b> <?php echo $this->getData('car')->getModell(); ?><br />
@@ -26,8 +28,7 @@
   </div>
 
 </div>
-
-<hr />
+<br>
 
 <a class="btn btn-secondary" href="/Webprojekt/car">Zur Übersicht</a>    
 <br>

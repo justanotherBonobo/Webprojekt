@@ -1,5 +1,5 @@
 <h2 class="title">Unsere Autos</h2>
-<h4 class="subtitle">Hier finden Sie eine Übersicht unserer verfügbaren Fahrzeuge</h4>
+<h4 class="subtitle">Übersicht aller Fahrzeuge</h4>
 <?php if ($this->getData('valid') != true) {
     //Warning if XML cant get validated by the schema
     echo ('<div class="alert alert-danger" role="alert">

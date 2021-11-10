@@ -1,3 +1,4 @@
+<div class="">
 <h1 class="title">Suchergebnis</h1>
 <p>
     Ihre Suche nach <b><?php echo $this->getData('query'); ?></b> ergab <b><?php echo count($this->getData('result')); ?></b> Treffer
@@ -35,3 +36,5 @@
     );
 }
     ?>
+    
+</div>

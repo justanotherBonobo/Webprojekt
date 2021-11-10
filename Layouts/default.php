@@ -13,8 +13,19 @@
   </head>
   <body>
     <?php include('Layouts/components/nav.php'); ?>
+    <div class="section">
     <div class="container">
         <?php echo $this->renderView(); ?>
+
     </div>
+    </div>
+    <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>CarSearch</strong> by SimpleSolutions GmbH, Rosenthalerstr. 23, 10119 Berlin.
+    </p>
+  </div>
+</footer>
+
   </body>
 </html>
