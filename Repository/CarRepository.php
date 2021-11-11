@@ -11,8 +11,8 @@ class CarRepository
     implements RepositoryInterface
 {
     /**
-     * Create a list of book objects
-     * from an given array of books
+     * Create a list of car objects
+     * from an given array of car
      * 
      * @param array $list
      */

@@ -9,7 +9,7 @@ abstract class AbstractRepository
     protected $_list = [];
 
     /**
-     * load contents from a json file
+     * load contents from a XML file
      */
 
     public function loadXML($filename)
